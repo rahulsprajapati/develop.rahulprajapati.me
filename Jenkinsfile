@@ -11,7 +11,7 @@ pipeline {
             }
         }
         stage('Build') {
-            agent { docker 'php' }
+            agent any
             steps {
                 sh './build.sh'
             }
