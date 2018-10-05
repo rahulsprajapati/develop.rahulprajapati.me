@@ -75,7 +75,7 @@ function twentyseventeen_get_svg( $args = array() ) {
 
 	// If there is a title, display it.
 	if ( $args['title'] ) {
-		$svg .= '<title>' . esc_html( $args['title'] ) . '</title>';
+		$svg .= '<title>' . ( $args['title'] ) . '</title>';
 	}
 
 	// If there is a description, display it.
